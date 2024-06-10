@@ -1,0 +1,18 @@
+{
+  "name": "taller-test-em-all",
+  "version": "2.0.0",
+  "description": "Carpeta raiz de la app fullstack buscar Pokemon",
+  "main": "index.js",
+  "scripts": {
+    "app": "concurrently \"node backend/src/app.js\" \"cd frontend && npm run dev\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "taller-test-em-all"
+  },
+  "author": "Abimelek Castrezana",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

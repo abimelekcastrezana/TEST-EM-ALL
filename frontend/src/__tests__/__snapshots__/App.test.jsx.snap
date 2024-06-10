@@ -1,0 +1,166 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Prueba de App.jsx > Deberá comparar Snapshot de App 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+    data-testid="search-bar"
+  >
+    <img
+      alt="Logo de Pokémon"
+      src="/src/assets/klipartz.com.png"
+    />
+    <h1>
+      Busca un Pokémon
+    </h1>
+    <form
+      class="MuiBox-root css-1mz6ms4"
+    >
+      <div
+        class="MuiFormControl-root MuiTextField-root css-1u3bzj6-MuiFormControl-root-MuiTextField-root"
+      >
+        <label
+          class="MuiFormLabel-root MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined MuiFormLabel-colorPrimary MuiInputLabel-root MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-sizeMedium MuiInputLabel-outlined css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root"
+          data-shrink="false"
+          for=":r0:"
+          id=":r0:-label"
+        >
+          Introduce un Pokenombre o ID
+        </label>
+        <div
+          class="MuiInputBase-root MuiOutlinedInput-root MuiInputBase-colorPrimary MuiInputBase-formControl css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root"
+        >
+          <input
+            aria-invalid="false"
+            class="MuiInputBase-input MuiOutlinedInput-input css-1t8l2tu-MuiInputBase-input-MuiOutlinedInput-input"
+            id=":r0:"
+            type="text"
+            value=""
+          />
+          <fieldset
+            aria-hidden="true"
+            class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
+          >
+            <legend
+              class="css-yjsfm1"
+            >
+              <span>
+                Introduce un Pokenombre o ID
+              </span>
+            </legend>
+          </fieldset>
+        </div>
+      </div>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeMedium MuiButton-containedSizeMedium MuiButton-colorPrimary css-sghohy-MuiButtonBase-root-MuiButton-root"
+        tabindex="0"
+        type="submit"
+      >
+        Buscar
+        <span
+          class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+        />
+      </button>
+    </form>
+  </div>
+  <div
+    aria-hidden="true"
+    class="MuiBackdrop-root css-1ji7omv-MuiBackdrop-root"
+    data-testid="backdrop"
+    style="opacity: 1; webkit-transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+  >
+    <span
+      class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorInherit css-62e83j-MuiCircularProgress-root"
+      data-testid="progressbar"
+      role="progressbar"
+      style="width: 40px; height: 40px;"
+    >
+      <svg
+        class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+        viewBox="22 22 44 44"
+      >
+        <circle
+          class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+          cx="44"
+          cy="44"
+          fill="none"
+          r="20.2"
+          stroke-width="3.6"
+        />
+      </svg>
+    </span>
+  </div>
+  <div
+    class="MuiContainer-root MuiContainer-maxWidthXl css-19r6kue-MuiContainer-root"
+    data-testid="pokemon-list"
+  >
+    <div
+      class="MuiBox-root css-1j3dwml"
+    >
+      <div
+        class="MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-3 css-zow5z4-MuiGrid-root"
+      >
+        <div
+          class="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6 MuiGrid-grid-md-3 MuiGrid-grid-lg-2 css-eknguo-MuiGrid-root"
+        >
+          <div
+            class="MuiBox-root css-0"
+          >
+            <div
+              class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-12dt9yw-MuiPaper-root-MuiCard-root"
+            >
+              <div
+                class="MuiCardContent-root css-j05f5w-MuiCardContent-root"
+              >
+                <div
+                  class="MuiDivider-root MuiDivider-fullWidth MuiDivider-withChildren css-1puturl-MuiDivider-root"
+                  role="separator"
+                >
+                  <span
+                    class="MuiDivider-wrapper css-qywfm8-MuiDivider-wrapper"
+                  >
+                    <h6
+                      class="MuiTypography-root MuiTypography-h6 MuiTypography-alignCenter css-5qs17i-MuiTypography-root"
+                    >
+                      STRING
+                    </h6>
+                  </span>
+                </div>
+              </div>
+              <img
+                class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-o69gx8-MuiCardMedia-root"
+              />
+              <div
+                class="MuiCardActions-root css-1rwjz6-MuiCardActions-root"
+              >
+                <button
+                  aria-label="Ver información"
+                  class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-78trlr-MuiButtonBase-root-MuiIconButton-root"
+                  data-mui-internal-clone-element="true"
+                  tabindex="0"
+                  type="button"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+                    data-testid="InfoIcon"
+                    focusable="false"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2m1 15h-2v-6h2zm0-8h-2V7h2z"
+                    />
+                  </svg>
+                  <span
+                    class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
